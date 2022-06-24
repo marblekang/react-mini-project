@@ -4,7 +4,8 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `;
 
 export const Input = styled.input`
@@ -13,5 +14,5 @@ export const Input = styled.input`
   height: 20px;
   border: 2px solid black;
   border-radius: 5px;
-  background-color: white;
+  display: block;
 `;
